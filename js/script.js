@@ -1,0 +1,28 @@
+const hour = document.querySelector(".hour");
+const min = document.querySelector(".min");
+const sec = document.querySelector(".sec");
+
+
+function getTime {
+    const time = new Date();
+
+    const getHourRot = (360 / 12) * time.getHours();
+    const getMinRot = (360 / 60) * time.getHours();
+    const getSecRot = (360 / 60) * time.getSeconds();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
